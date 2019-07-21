@@ -1,0 +1,58 @@
+<div class="row section featured topspace">
+
+    <h2 class="section-title"><span>Publication</span></h2>
+
+    <div class="">
+        {{ range where .Data.Pages "Section" "service" }}
+            <div class="col-sm-6 col-md-3">
+                <h3 class="text-center">{{ .Title }}</h3>
+                <p>{{ .Summary }}</p>
+                <p class="text-center"><a href="{{ .Permalink }}" class="btn btn-action">Read more</a></p>
+            </div>
+        {{ end }}
+    </div>
+    
+    <div class="">
+       <p>
+           <ul style="list-style-type:circle;">
+              <font size="3">
+              <li><B>Anomaly detection based on Nearest Neighbor search with Locality-Sensitive B-tree</B></li>
+                  <B>Maying Shen</B>, Xinghao Jiang, Tanfeng Sun<br>
+                  Neurocomputing, 2018, 289: 55-67<br>
+              </font>
+              <font size="2">
+                  [<a href="https://drive.google.com/open?id=1HNm2p67MiRl5D-nj-9SNI3xpifcHiMlc">paper</a>]
+              </font>
+           </ul>
+        </p>
+
+        <p>
+           <ul style="list-style-type:circle;">
+              <font size="3">
+              <li><B>Anomaly Detection by Analyzing the Pedestrian Behavior and the Dynamic Changes of Behavior</B></li>
+                  <B>Maying Shen</B>, Xinghao Jiang, Tanfeng Sun<br>
+                  International Conference on Intelligent Computing (ICIC), 2017<br>
+              </font>
+              <font size="2">
+                  [<a href="https://drive.google.com/open?id=1QZ91No2AWrtYeRtoMQpk3fUQaWiaAp7h">paper</a>]
+              </font>
+           </ul>
+        </p>
+
+        <p>
+           <ul style="list-style-type:circle;">
+              <font size="3">
+              <li><B>Crowd Counting Estimation in Video Surveillance Based on Linear Regression Function</B></li>
+                  <B>Maying Shen</B>, Tanfeng Sun, Xinghao Jiang, Ke Xu<br>
+                  IEEE CISP-BMEI 2016<br>
+              </font>
+              <font size="2">
+                  [<a href="https://drive.google.com/open?id=1EMHlxBMvUT8O443h79XFIRc4hYN3e4oj">paper</a>]
+              </font>
+           </ul>
+        </p>
+
+     </div>
+
+
+</div> <!-- / section -->
