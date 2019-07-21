@@ -5,12 +5,11 @@ publishDir = "public"
 
 [params]
     name = "Maying Shen"
-    description = "Master of Science in Computer Vision, Carnegie Mellong University"
+    description = "Master of Science in Computer Vision, Carnegie Mellon University"
     email = "mayings@andrew.cmu.edu"
     phone = "(412) 419-7491"
     year = 2019
-    avatar = "images/self-header.JPG"
-    background = "images/header_bg.png"
+    background = "images/main_background.jpg"
     favicon = "images/gt_favicon.png"
     DateForm = "January 2, 2006"
 
